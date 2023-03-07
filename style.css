@@ -6,9 +6,22 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#title{
+#title, #board{
     text-align: center;
 } 
-#board {
-    text-align: end;
+
+#ascii_image{
+    text-align: center;
+    color: #fff;
+    white-space:pre;
+    letter-spacing:0;
+    line-height:1.4;
+    font-family: 'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace;
+    font-size:0.51em;
+
+}
+
+.hide {
+
+    display: none;
 }
