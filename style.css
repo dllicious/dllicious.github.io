@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    background-color: #63C8F2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title{
+    text-align: center;
+} 
+#board {
+    text-align: end;
+}
