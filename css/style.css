@@ -16,8 +16,11 @@ body {
     white-space:pre;
     letter-spacing:0;
     line-height:1.4;
-    font-family: 'Courier Prime','CourierNew',Courier,monospace;
+    font-family: 'Courier New',Courier,monospace;
     font-size:0.51em;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
 
 }
 
