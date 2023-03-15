@@ -10,7 +10,7 @@ body {
     text-align: center;
 } 
 
-#ascii_image{
+#ascii_image_1, #ascii_image_2{
     text-align: center;
     color: #fff;
     white-space:pre;
