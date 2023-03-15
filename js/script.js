@@ -1,5 +1,8 @@
-//Using jQuery to train a dog
+//jquery train a dog
 $(document).ready(function(e){
+
+    let count = 0;
+    let maxcount = 2;
 
     function showView(viewName){
         $('.view').hide();
@@ -8,8 +11,14 @@ $(document).ready(function(e){
     }
 
     $(document).click(function() {
-        var viewName = "ascii_image";
+ 
+        if(count < maxcount) {
+            count++
+        };
+
+        var viewName = "ascii_image_" +count;
         showView(viewName);
+
     });
 
 
