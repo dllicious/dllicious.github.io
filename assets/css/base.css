@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--cnes-light);
+    background-color: var(--cnes-dark);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: normal;
+}

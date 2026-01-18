@@ -1,2 +1,5 @@
 # cnes
-This repository is dedicated for the CNES website and future projects. January 2026.
+
+© 2026 Concordia Nuclear Engineering Society. All rights reserved.
+
+This is the official website of CNES hosted via GitHub Pages for convenience. 
