@@ -10,6 +10,8 @@
 
 .site-header {
     background-color: var(--cnes-darkred);
+    position: relative; /* required for z-index to work */
+    z-index: 10; /* higher than .bg-wrap::before */
 }
 
 /* hide menu by default */
@@ -18,7 +20,10 @@
     opacity: 0;
     visibility: hidden;
     background-color: var(--cnes-darkred);
+    position: absolute; /* ensure it layers on top */
+    z-index: 11; /* higher than header background and hero overlay */
 }
+
 
 /* show menu when parent is hovered */
 .dropdown:hover .dropdown-menu {
@@ -26,6 +31,7 @@
     visibility: visible;
     background-color: var(--cnes-darkred);
 }
+
 
 /* Index */
 .hero {
@@ -114,3 +120,4 @@ footer {
 .nav-buttons a {
     margin: 0; /* remove individual margins, rely on gap */
 }
+
