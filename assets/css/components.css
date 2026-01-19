@@ -42,5 +42,25 @@ a.button {
         border-color: var(--cnes-yellow);
     }
 
+.social-buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 8rem;
+}
+
+    .social-buttons a {
+        width: 56px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.15s ease, background-color 0.15s ease;
+    }
+
+        .social-buttons a:hover {
+            transform: scale(1.05);
+        }
 
 
