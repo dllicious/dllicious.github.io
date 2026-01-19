@@ -13,7 +13,29 @@ body {
     background-color: var(--cnes-dark);
 }
 
-h1, h2, h3 {
+h3 {
+    font-family: var(--font-display);
+    color: var(--cnes-white);
+    font-weight: normal;
+}
+
+h2 {
     font-family: var(--font-display);
     font-weight: normal;
+    color: var(--cnes-white);
+    font-size: clamp(4rem, 10vw, 3rem);
+    line-height: 1.1;
+}
+
+
+h1 {
+    font-family: var(--font-display);
+    font-weight: normal;
+    color: var(--cnes-white);
+    font-size: clamp(4rem, 10vw, 4rem);
+    line-height: 1.1;
+}
+
+p {
+    color: var(--cnes-white);
 }
