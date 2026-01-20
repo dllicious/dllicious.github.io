@@ -1,2 +1,2 @@
-# cnes
-This repository contains the legacy static setup for the CNES website. It currently serves as a temporary redirect while domain ownership, DNS records, and hosting decisions are finalized by the domain owner. No further development or maintenance is planned here. Wishing the team success with future development.
+#update DNS records
+This repository contains the legacy static website for the Concordia Nuclear Engineering Society. It currently serves as a temporary redirect while the domain owner finalizes domain ownership, DNS records, and hosting decisions. No further development or maintenance is planned here. Wishing the team success with future development. 19 January 2026.
