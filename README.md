@@ -1,5 +1,2 @@
 # cnes
-
-© 2026 Concordia Nuclear Engineering Society. All rights reserved.
-
-This is the official website of CNES hosted via GitHub Pages for convenience. 
+This repository contains the legacy static setup for the CNES website. It currently serves as a temporary redirect while domain ownership, DNS records, and hosting decisions are finalized by the domain owner. No further development or maintenance is planned here. Wishing the team success with future development.
