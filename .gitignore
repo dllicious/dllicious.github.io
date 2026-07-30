@@ -1,3 +1,8 @@
+# others
+.vs
+.git
+
+
 # Non-templated files to ignore #
 sourcefiles/
 
