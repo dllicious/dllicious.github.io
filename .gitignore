@@ -3,6 +3,8 @@
 *.git
 *.ico
 *.ini
+*.xcf
+*.py 
 
 # Non-templated files to ignore #
 sourcefiles/
