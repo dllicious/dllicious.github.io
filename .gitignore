@@ -1,7 +1,8 @@
-# others
-.vs
-.git
-
+# local files
+*.vs
+*.git
+*.ico
+*.ini
 
 # Non-templated files to ignore #
 sourcefiles/
