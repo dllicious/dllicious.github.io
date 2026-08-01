@@ -1,271 +1,55 @@
-
 <!DOCTYPE html>
-<html>
-  <head><meta charset="utf-8">
-<meta name="robots" content="noindex, nofollow">
-<title>ENGR 311 Schedule</title>
+<meta charset="utf-8">
+<title>Course Schedules</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <style>
-* {
-  box-sizing: border-box;
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;padding:16px 14px 40px;background:#fff;color:#1c1c1c;
+     font:17px/1.55 "Segoe UI",Calibri,-apple-system,system-ui,sans-serif}
+.wrap{max-width:900px;margin:0 auto}
+h2{margin:26px 0 10px;padding:0 0 7px;font-size:15px;font-weight:700;
+   letter-spacing:.9px;text-transform:uppercase;color:#1F4E79;
+   border-bottom:2px solid #1F4E79}
+h2:first-of-type{margin-top:4px}
+h2 span{display:block;margin-top:3px;font-size:14px;font-weight:400;
+        letter-spacing:0;text-transform:none;color:#4a5764}
+.list{display:grid;grid-template-columns:1fr;gap:9px}
+a.sec{display:block;padding:13px 15px;border:1px solid #dbe5ee;border-left:4px solid #1F4E79;
+      border-radius:7px;background:#fff;text-decoration:none;color:inherit}
+a.sec:active{background:#EDF3F8}
+.num{font-size:19px;font-weight:700;color:#1F4E79}
+.ttl{font-size:19px;font-weight:600;color:#1F4E79}
+.meta{margin-top:5px;font-size:15px;color:#5a6773}
+footer{margin:30px 0 0;padding-top:12px;border-top:1px solid #e3e9ef;
+       font-size:14px;line-height:1.6;color:#5a6773}
+footer a{color:#1F4E79}
+@media(min-width:620px){
+  body{padding:22px 20px 48px}
+  .list{grid-template-columns:1fr 1fr;gap:10px}
+  a.sec:hover{background:#F7FAFC;border-color:#b9d2e7}
 }
-
-html {
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 16px 14px 40px;
-  background: #fff;
-  color: #1c1c1c;
-  font: 17px/1.55 "Segoe UI", Calibri, -apple-system, system-ui, sans-serif;
-}
-
-.wrap {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-h2 {
-  margin: 26px 0 10px;
-  padding: 0 0 7px;
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: .9px;
-  text-transform: uppercase;
-  color: #1F4E79;
-  border-bottom: 2px solid #1F4E79;
-}
-
-h2:first-of-type {
-  margin-top: 4px;
-}
-
-h2 span {
-  display: block;
-  margin-top: 3px;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  text-transform: none;
-  color: #4a5764;
-}
-
-.list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 9px;
-}
-
-a.sec {
-  display: block;
-  padding: 13px 15px;
-  border: 1px solid #dbe5ee;
-  border-left: 4px solid #1F4E79;
-  border-radius: 7px;
-  background: #fff;
-  text-decoration: none;
-  color: inherit;
-}
-
-a.sec:active {
-  background: #EDF3F8;
-}
-
-.num {
-  font-size: 19px;
-  font-weight: 700;
-  color: #1F4E79;
-}
-
-.ttl {
-  font-size: 19px;
-  font-weight: 600;
-  color: #1F4E79;
-}
-
-.meta {
-  margin-top: 5px;
-  font-size: 15px;
-  color: #5a6773;
-}
-
-.prob {
-  margin-top: 3px;
-  font-size: 16px;
-  color: #1c1c1c;
-}
-
-.prob b {
-  font-weight: 600;
-  color: #5a6773;
-}
-
-footer {
-  margin: 30px 0 0;
-  padding-top: 12px;
-  border-top: 1px solid #e3e9ef;
-  font-size: 14px;
-  line-height: 1.6;
-  color: #5a6773;
-}
-
-footer a {
-  color: #1F4E79;
-}
-
-@media (min-width: 620px) {
-  body {
-    padding: 22px 20px 48px;
-  }
-
-  .list {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-
-  a.sec:hover {
-    background: #F7FAFC;
-    border-color: #b9d2e7;
-  }
-}
-
-@media print {
-  body {
-    padding: 0;
-    font-size: 11pt;
-    color: #000;
-  }
-
-  .list {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  a.sec {
-    border-color: #bbb;
-    break-inside: avoid;
-  }
-
-  h2 {
-    break-after: avoid;
-  }
+@media print{
+  body{padding:0;font-size:11pt;color:#000}
+  .list{grid-template-columns:1fr 1fr}
+  a.sec{border-color:#bbb;break-inside:avoid}
+  h2{break-after:avoid}
 }
 </style>
-</head><body>
-  <div class="wrap">
-  <h2>Chapter 4<span>The Laplace Transform</span></h2>
+<div class="wrap">
+  <h2>Course Schedules<span>Pick a course to view its reading and problem schedule</span></h2>
   <div class="list">
-    <a class="sec" href="engr311/engr311_week1_section4.1_pp212-217_definition_of_the_laplace_transform.pdf">
-      <span class="num">4.1</span> <span class="ttl">Definition of the Laplace Transform</span>
-      <div class="meta">ed. 6  pp. 212-217</div>
-      <div class="prob"><b>Problems</b> 3, 6, 10, 14</div>
+    <a class="sec" href="engr213_index.html">
+      <span class="ttl">ENGR 213</span>
+      <div class="meta">Differential Equations</div>
     </a>
-
-    <a class="sec" href="engr311/engr311_week1_section4.2_pp218-225_the_inverse_transform_and_transforms_of_derivatives.pdf">
-      <span class="num">4.2</span> <span class="ttl">The Inverse Transform and Transforms of Derivatives</span>
-      <div class="meta">ed. 6  pp. 218-225</div>
-      <div class="prob"><b>Problems</b> 5, 6, 13, 16, 36, 40</div>
+    <a class="sec" href="engr233_index.html">
+      <span class="ttl">ENGR 233</span>
+      <div class="meta">Advanced Calculus</div>
     </a>
-
-    <a class="sec" href="engr311/engr311_week1_section4.3_pp226-235_translation_theorems.pdf">
-      <span class="num">4.3</span> <span class="ttl">Translation Theorems</span>
-      <div class="meta">ed. 6  pp. 226-235</div>
-      <div class="prob"><b>Problems</b> 5, 12, 22, 24, 41, 45</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week2_section4.4_pp236-247_additional_operational_properties.pdf">
-      <span class="num">4.4</span> <span class="ttl">Additional Operational Properties</span>
-      <div class="meta">ed. 6  pp. 236-247</div>
-      <div class="prob"><b>Problems</b> 4, 7, 10, 45, 46, 52</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week2_section4.5_pp248-250_the_dirac_delta_function.pdf">
-      <span class="num">4.5</span> <span class="ttl">The Dirac Delta Function</span>
-      <div class="meta">ed. 6  pp. 248-250</div>
-      <div class="prob"><b>Problems</b> 3, 9, 12</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week2_section4.6_pp251-257_systems_of_linear_differential_equations.pdf">
-      <span class="num">4.6</span> <span class="ttl">Systems of Linear Differential Equations</span>
-      <div class="meta">ed. 6  pp. 251-257</div>
-      <div class="prob"><b>Problems</b> 4, 10, 14</div>
+    <a class="sec" href="engr311_index.html">
+      <span class="ttl">ENGR 311</span>
+      <div class="meta">Transform Calculus</div>
     </a>
   </div>
-
-  <h2>Chapter 12<span>Orthogonal Functions and Fourier Series</span></h2>
-  <div class="list">
-    <a class="sec" href="engr311/engr311_week3_section12.1_pp672-676_orthogonal_functions.pdf">
-      <span class="num">12.1</span> <span class="ttl">Orthogonal Functions</span>
-      <div class="meta">ed. 6  pp. 672-676</div>
-      <div class="prob"><b>Problems</b> 3, 10, 18, 21</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week3_section12.2_pp677-680_fourier_series.pdf">
-      <span class="num">12.2</span> <span class="ttl">Fourier Series</span>
-      <div class="meta">ed. 6  pp. 677-680</div>
-      <div class="prob"><b>Problems</b> 10, 12, 16</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week4_section12.3_pp681-688_fourier_cosine_and_sine_series.pdf">
-      <span class="num">12.3</span> <span class="ttl">Fourier Cosine and Sine Series</span>
-      <div class="meta">ed. 6  pp. 681-688</div>
-      <div class="prob"><b>Problems</b> 4, 6, 12, 30, 33</div>
-    </a>
-  </div>
-
-  <h2>Chapter 13<span>Boundary-Value Problems in Rectangular Coordinates</span></h2>
-  <div class="list">
-    <a class="sec" href="engr311/engr311_week4_section13.1_pp708-710_separable_partial_differential_equations.pdf">
-      <span class="num">13.1</span> <span class="ttl">Separable Partial Differential Equations</span>
-      <div class="meta">ed. 6  pp. 708-710</div>
-      <div class="prob"><b>Problems</b> 3, 8, 24</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week4_section13.2_pp711-715_classical_pdes_and_boundary_value_problems.pdf">
-      <span class="num">13.2</span> <span class="ttl">Classical PDEs and Boundary-Value Problems</span>
-      <div class="meta">ed. 6  pp. 711-715</div>
-      <div class="prob"><b>Problems</b> 3, 10, 12</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week5_section13.3_pp716-718_heat_equation.pdf">
-      <span class="num">13.3</span> <span class="ttl">Heat Equation</span>
-      <div class="meta">ed. 6  pp. 716-718</div>
-      <div class="prob"><b>Problems</b> 2, 5</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week5_section13.4_pp719-724_wave_equation.pdf">
-      <span class="num">13.4</span> <span class="ttl">Wave Equation</span>
-      <div class="meta">ed. 6  pp. 719-724</div>
-      <div class="prob"><b>Problems</b> 3, 5, 10</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week5_section13.5_pp725-729_laplaces_equation.pdf">
-      <span class="num">13.5</span> <span class="ttl">Laplace's Equation</span>
-      <div class="meta">ed. 6  pp. 725-729</div>
-      <div class="prob"><b>Problems</b> 4, 10, 13</div>
-    </a>
-
-    <a class="sec" href="engr311/engr311_week6_section13.6_pp730-737_nonhomogeneous_boundary_value_problems.pdf">
-      <span class="num">13.6</span> <span class="ttl">Nonhomogeneous Boundary-Value Problems</span>
-      <div class="meta">ed. 6  pp. 730-737</div>
-      <div class="prob"><b>Problems</b> 1, 6</div>
-    </a>
-  </div>
-
-  <h2>Chapter 15<span>Integral Transform Method</span></h2>
-  <div class="list">
-    <a class="sec" href="engr311/engr311_week6_section15.3_pp777-782_fourier_integral.pdf">
-      <span class="num">15.3</span> <span class="ttl">Fourier Integral</span>
-      <div class="meta">ed. 6  pp. 777-782</div>
-      <div class="prob"><b>Problems</b> 2, 10</div>
-    </a>
-  </div>
-
-  <footer>
-Sections are from the <b>6th edition</b>; the problems are from the
-<b>5th edition</b>. <a href="ENGR311_Problems.pdf">Problem set (PDF)</a>
-</footer>
 </div>
-</body>
-</html>

@@ -6,6 +6,7 @@
 *.xcf
 *.py 
 /dev/
+/sourcefiles/
 
 # Non-templated files to ignore #
 sourcefiles/
