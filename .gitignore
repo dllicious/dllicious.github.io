@@ -5,6 +5,7 @@
 *.ini
 *.xcf
 *.py 
+/dev/
 
 # Non-templated files to ignore #
 sourcefiles/
