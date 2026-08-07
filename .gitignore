@@ -7,6 +7,9 @@
 *.py 
 /dev/
 /sourcefiles/
+*.pem
+*.key
+
 
 # Non-templated files to ignore #
 sourcefiles/
